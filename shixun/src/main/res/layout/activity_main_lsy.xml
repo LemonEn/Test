@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:orientation="horizontal"
+    android:background="#09f444"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="综合" />
+    <Button
+        android:id="@+id/main_search"
+        android:text="搜索"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+
+    <com.androidkun.PullToRefreshRecyclerView
+
+        android:id="@+id/Mode_PullTorefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
